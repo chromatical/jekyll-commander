@@ -7,7 +7,7 @@ Manage Jekyll websites without the command line.
 Download and run the installer from the releases page.
 
 ## Configuration
-Jekyll Commander runs out of the box on Linux.  Mac and Windows users must set the correct path to the Jekyll and Bundler scripts on their machine.
+Jekyll Commander runs out of the box on Linux.  Mac and Windows users must set the correct path in the configuration to the Jekyll and Bundler scripts on their machine.
 
 ## Development
 ```
