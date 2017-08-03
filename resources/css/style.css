@@ -1,0 +1,49 @@
+#sidebar{
+  width: 300px;
+  height: 100%;
+  margin-bottom: 0;
+  border-radius: 0;
+  overflow: auto;
+}
+#topbar{
+  float: right;
+  position: absolute;
+  border-radius: 0;
+  top: 0;
+  right: 0;
+  width: calc(100% - 300px);
+  -webkit-app-region: drag
+}
+main, #logo{
+  width: calc(100% - 300px);
+  position: absolute;
+  right: 0;
+  top: 42px;
+  height: calc(100% - 42px);
+  overflow: auto;
+  padding: 42px;
+  text-align: center;
+}
+#app{
+  width: 100%;
+  height: 100%;
+}
+#messages{
+  padding: 10px;
+  background: black;
+  color: white;
+  overflow: scroll;
+  width: 100%;
+  height: 400px;
+  max-height: 42vh;
+}
+:not(input):not(textarea),
+:not(input):not(textarea)::after,
+:not(input):not(textarea)::before{
+  -webkit-user-select: none !important;
+  user-select: none !important;
+  cursor: default !important;
+}
+input, button, textarea, :focus {
+    outline: none; // You should add some other style for :focus to help UX/a11y
+}
